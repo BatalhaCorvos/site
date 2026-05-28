@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   title: "Batalha dos Corvos ",
   description: "Corvos",
-  base: "/corvos/",
+  base: "/",
   vite: {
     plugins: [tailwindcss()]
   }
